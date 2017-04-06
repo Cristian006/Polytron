@@ -1,14 +1,13 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<dom-module id="cork-app">
+<dom-module id="polytron-app">
   <template>
     <style>
       :host {
         display: block;
       }
     </style>
-    
-    <h1>Hello World!</h1>
+    <h1>Hello World! This is Polytron</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
@@ -17,18 +16,18 @@
   </template>
 
   <script>
-    class MyApplication extends Polymer.Element {
-      static get is() { return 'cork-app'; }
+    class Polytron extends Polymer.Element {
+      static get is() { return 'polytron-app'; }
       static get properties() {
         return {
           prop1: {
             type: String,
-            value: 'cork-app'
+            value: 'polytron-app'
           }
         };
       }
     }
 
-    window.customElements.define(MyApplication.is, MyApplication);
+    window.customElements.define(Polytron.is, Polytron);
   </script>
 </dom-module>

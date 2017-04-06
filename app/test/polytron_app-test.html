@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>cork-app test</title>
+    <title>polytron-app test</title>
 
-    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
-    <script src="../../../web-component-tester/browser.js"></script>
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../bower_components/web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../../src/cork-app/cork-app.html">
+    <link rel="import" href="../src/polytron-app.html">
   </head>
   <body>
     <test-fixture id="basic">
       <template>
-        <cork-app></cork-app>
+        <polytron-app></polytron-app>
       </template>
     </test-fixture>
 
     <script>
-      suite('cork-app', function() {
+      suite('polytron-app', function() {
         test('instantiating the element works', function() {
           var element = fixture('basic');
-          assert.equal(element.is, 'cork-app');
+          assert.equal(element.is, 'polytron-app');
         });
       });
     </script>

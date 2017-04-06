@@ -1,7 +1,7 @@
 {
-  "name": "CorkBoard",
-  "short_name": "CorkBoard",
-  "description": "ADS",
+  "name": "Polytron",
+  "short_name": "Polytron",
+  "description": "GitHub's Electron Framework built mixed in with Google's Polymer Javascript Library.",
   "start_url": "/",
   "display": "standalone"
 }

@@ -1,7 +1,7 @@
 {
-  "name": "electron-poly",
+  "name": "Polytron",
   "version": "1.0.0",
-  "description": "A Polymer Electron application",
+  "description": "GitHub's Electron Framework built mixed in with Google's Polymer Javascript Library.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -12,7 +12,8 @@
     "quick",
     "start",
     "tutorial",
-    "demo"
+    "demo",
+    "Polymer"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
