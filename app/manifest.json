@@ -1,0 +1,7 @@
+{
+  "name": "CorkBoard",
+  "short_name": "CorkBoard",
+  "description": "ADS",
+  "start_url": "/",
+  "display": "standalone"
+}
