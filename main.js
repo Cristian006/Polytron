@@ -5,7 +5,7 @@ const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 
 const frameworkURL = "./app/index.html"
-
+const appIconURL = "./app/images/manifest/icon-72x72.png";
 const path = require('path')
 const url = require('url')
 
@@ -15,7 +15,7 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 800, height: 600, icon: __dirname + appIconURL})
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
@@ -25,7 +25,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
